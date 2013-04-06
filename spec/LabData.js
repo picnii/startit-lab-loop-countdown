@@ -1,17 +1,34 @@
 var labdata = {
-	name:"Loop Test Drive",
+	name:"Loop Coutdown",
 	steps:[
 		{
-			name:"Loop กับการทำซ้ำ ", 
-			content:"ลองใช้การใช้ loop ทำงานซ้ำๆกันเถอะ " ,
-			code:"http://learn.picnii.me/contents/31",
+			name:"Loop นับเลขโคตรง่าย", 
+			content:"นับเลขสนุกๆง่ายๆกันเถอะส์" ,
+			code:"http://learn.picnii.me/group/6",
 			class:"in"
 		},
 
 		{
-			name:"เริ่มต้นด้วยการใช้ if", 
-			content:"เริ่ม" ,
-			code:"function init()\n{\n \tvar i = 10;\n \tif(i > 0)\n \t	{\n \t	echo(i);\n \t}",
+			name:"เริ่มต้นกับ input", 
+			code:"showInput()",
+		},
+
+		{
+			name:"onSubmit() # นับเลข", 
+			content:"เมื่อกดจะทำการนับเลขจาก Input ตั้งแต่ 1 จนถึง ค่าที่เค้ากรอกมา เช่น กรอก 5 ก็ได้ 1,2,3,4,5" ,
+			code:"echo, while, for, getInput()",
+		},
+
+		{
+			name:"onSubmit() # ไม่ใช่เลขนะ", 
+			content:"ถ้ากรอกมาไม่ใช่ตัวเลขให้ตอบ ว่า\"{input} is not a number\" เช่น กรอก 5 ให้ตอบว่า \"5 is not a number\"" ,
+			code:"isNaN()",
+		},
+
+		{
+			name:"onSubmit() # clear!", 
+			content:"clearInput และ ทุกอย่างก่อนแสดงซะ" ,
+			code:"clearInput(), clearAll(), ดูตำแหน่งการclear ให้ดี",
 		},
 
 	],
